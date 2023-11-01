@@ -26,13 +26,18 @@
         3. Encoder Decoder models, use cases, examples.
         4. Computational challenges of training LLMs.
         5. Scaling laws and compute optimal models (Chinchilla).
-        6. Pre-training for domain adaptation
+        6. Pre-training for domain adaptation.
     
     * Quiz covering above 
     * Programming assignment on SageMaker:
-        0. T5 model inference (for dialogue summarization).
-        1. zero shot prompting.
-        2. 1 shot prompting.
-        3. Few shot prompting.
-        
+        1. Set up Kernel and Required Dependencies.
+        2. Summarize Dialogue without Prompt Engineering.
+        3. Summarize Dialogue with an Instruction Prompt.
+            1. Zero Shot Inference with an Instruction Prompt.
+            2. Zero Shot Inference with the Prompt Template from FLAN-T5.
+        4. Summarize Dialogue with One Shot and Few Shot Inference.
+            1. One Shot Inference.
+            2. Few Shot Inference.
+        5. Generative Configuration Parameters for Inference.
+
         
