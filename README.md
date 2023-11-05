@@ -1,5 +1,6 @@
 # gen_ai_with_llm_coursera
 
+[Tracking my progress on GEN AI WITH LLMs course on coursera](https://www.coursera.org/learn/generative-ai-with-llms/).
 
 ## Syllabus:
 
