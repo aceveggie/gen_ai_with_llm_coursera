@@ -28,7 +28,7 @@
         5. Scaling laws and compute optimal models (Chinchilla).
         6. Pre-training for domain adaptation.
     
-    * Quiz covering above 
+    * Quiz covering above topics.
     * Programming assignment on SageMaker:
         1. Set up Kernel and Required Dependencies.
         2. Summarize Dialogue without Prompt Engineering.
@@ -40,4 +40,38 @@
             2. Few Shot Inference.
         5. Generative Configuration Parameters for Inference.
 
-        
+2. Week 2: 
+    * Instruction fine tuning (IFT)
+        1. Catastrophic forgetting (and issues with in context learning, context window size, etc.)
+        2. Single task instruction fine tuning.
+        3. Multi task instruction fine tuning.
+        4. Supervised fine tuning 
+        5. Scaling instruct models (Quantization, 16 bit, 8 bit, 4 bit)
+        6. Evaluating the task (using ROUGE and BLEU metrics).
+        7. Evaluation of the LLM (using benchmarks).
+    * PEFT and related techniques
+        1. Issues with full fine tuning.
+        2. Advantage of PEFT based fine tuning.
+        3. Selective (training subset of parameters of LLM) PEFT.
+        4. Reparaterization based PEFT (LORA: adding LORA matrices, fine tuning on these parameters).
+        5. Additive PEFT (Soft Prompting, adding virtual tokens to inputs + fine tuning).
+        6. Full fine tuning vs LORA performance (ROUGE metrics).
+        7. Full fine tuning vs Soft Prompting (ROUGE metrics).
+    
+    * Quiz covering above topics
+    
+    * Programming assignment on SageMaker:
+        1. Set up Kernel, Load Required Dependencies, Dataset and LLM
+            1. Set up Kernel and Required Dependencies.
+            2. Load Dataset and LLM.
+            3. Test the Model with Zero Shot Inferencing.
+        2. Perform Full Fine-Tuning
+            1. Preprocess the Dialog-Summary Dataset.
+            2. Fine-Tune the Model with the Preprocessed Dataset.
+            3. Evaluate the Model Qualitatively (Human Evaluation).
+            4. Evaluate the Model Quantitatively (with ROUGE Metric)
+        3. Perform Parameter Efficient Fine-Tuning (PEFT)
+            1. Setup the PEFT/LoRA model for Fine-Tuning.
+            2. Train PEFT Adapter.
+            3. Evaluate the Model Qualitatively (Human Evaluation).
+            4. Evaluate the Model Quantitatively (with ROUGE Metric).
